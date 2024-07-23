@@ -1,0 +1,4 @@
+CONTROL_ID,SRC_DB_NAME,DATABASE_NAME,SCHEMA_NAME,OBJ_TYPE,OBJ_NAME,INSRT_TIME_COL,UPDT_TIME_COL,PRIMARY_KEY_COL,COL_NAMES,IS_DELETION,DELETED_TBL,SF_TBL
+1,-,-,-,FILE,crop_cutting_template,_submission_time,_submission_time,_id,-,-,-,tblco_crop_cutting
+2,-,-,-,FILE,ground_truthing_template,_submission_time,_submission_time,_id,-,-,-,tblco_ground_truthing
+3,-,-,-,FILE,soil_sampling_template,_submission_time,_submission_time,_id,-,-,-,tblco_soil_sampling

@@ -1,0 +1,11 @@
+CONTROL_ID,SRC_DB_NAME,DATABASE_NAME,SCHEMA_NAME,OBJ_TYPE,OBJ_NAME,INSRT_TIME_COL,UPDT_TIME_COL,PRIMARY_KEY_COL,COL_NAMES,IS_DELETION,DELETED_TBL,SF_TBL
+3,sqlserver,gi-test,dbo,table,Farm_FarmerAgreement,Agreement_addedDatetime,Agreement_updatedDatetime,Agreement_id,"Agreement_id,Farmer_id,Geolocation,Agreement_path,Image_path,Signature_path,Agreement_addedDatetime,Addedby,Agreement_updatedDatetime,Updatedby,Docket_Id,Document_Id,IsAgreement_Completed,IsEsign_Sent,StampPaper_Number,Esign_Type,Agreement_time",no,-,tblco_Farm_FarmerAgreement
+9,sqlserver,gi-test,dbo,table,tbl_Short_Survey,added_dtm,updated_dtm,id,*,no,-,tblco_Short_Survey
+10,sqlserver,gi-test,dbo,table,tbl_long_survey,added_dtm,updated_dtm,id,*,no,-,tblco_long_survey
+1,sqlserver,gi-test,dbo,table,Farm_FarmerMaster,entrydate,Updated_Date,Mobile,*,no,-,tblco_Farm_FarmerMaster
+2,sqlserver,gi-test,dbo,table,Farm_FarmerDataTagging,upload_date,UpdatedDate,tr_id,*,no,-,tblco_Farm_FarmerDataTagging
+4,sqlserver,gi-test,dbo,table,Farm_UserMaster,entrydate,entrydate,mobile,*,no,-,tblco_Farm_UserMaster
+5,sqlserver,gi-test,dbo,table,tblcn_Partner,datetime,datetime,id,*,no,-,tblco_Partner
+6,sqlserver,gi-test,dbo,table,Farm_eKycVerification,added_date,update_date,ekyc_id,*,no,-,tblco_Farm_eKycVerification
+7,sqlserver,gi-test,dbo,table,tbl_farmer_kyc_status,added_datetime,update_datetime,id,*,no,-,tblco_farmer_kyc_status
+8,sqlserver,gi-test,dbo,table,MobileVerification_TypeMaster,createddate,modifieddate,Id,*,no,-,tblco_MobileVerification_TypeMaster

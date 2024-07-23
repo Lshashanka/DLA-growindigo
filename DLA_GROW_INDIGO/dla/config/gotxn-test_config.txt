@@ -1,0 +1,59 @@
+[spark]
+mysql_jar_file_path = C:\spark\spark-3.4.1-bin-hadoop3\jars\mysql-connector-j-8.1.0.jar
+postgresql_jar_file_path = C:\spark-3.4.1-bin-hadoop3\jars\postgresql-42.6.0.jar
+
+[s3]
+aws_access_key_id = AKIA3LWEZ237K2VKQ5TC
+aws_secret_access_key = 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
+bucket_name = kasmos-gi-db-backup
+bucket_path = s3://kasmos-gi-db-backup
+source_folder = carbon_fieldactivity/
+destination_folder_base = parquet-folder/
+archive_folder = archive/
+region_name = ap-south-1
+
+[staging_folder]
+staging_folder_path = extract
+doc_per_file = 1000
+
+[metadata]
+metadata_file_path = metadata/gotxn-test_meta.csv
+scripts_folder_path = metadata/sqlscripts
+dtype_comp_file_path = metadata/datatypes.csv
+
+[sql_server]
+server_name = 10.80.50.187
+user = kasmo-gi-test-ro
+password = F1re&Ice!1234
+database_name = gi-carbon-test
+
+[postgresql]
+user = kasmos-go-test-ro
+password = Fi6\<669`\*.
+jdbcUrl = jdbc:postgresql://172.20.3.75:5029/gotxn-test
+ip_address = 172.20.3.75
+
+[mongodb]
+uri = mongodb://172.20.3.75:35054/gi
+ip_address = 172.20.3.75
+
+[SNOWFLAKE]
+database = GI_TEST_DB_BZ
+stg_database = GI_TEST_DB_STG
+schema = GI_GOTXN_TEST_DB
+stg_schema = GI_GOTXN_TEST_DB_STG
+warehouse = DEV_WH
+ext_stg_name = my_s3_stage
+account = dv46986.ap-south-1
+user = etl_user
+password = Kasmo@123
+cntrl_tbl = pipeline_control_table
+json_file_format = JSON_FILE_FORMAT
+
+[EMAIL]
+sender = vendor-growindigo@outlook.com
+password = Welcome@123
+smtp = smtp.office365.com
+port = 587
+receiver = ganumukalla.neelakanteshwara@kasmodigital.com,shashanka.l@kasmo.com
+ 
